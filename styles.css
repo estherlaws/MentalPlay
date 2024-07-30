@@ -31,7 +31,7 @@ main {
 
 footer {
     text-align: center;
-    padding: 30px;
+    padding: 20px;
 }
 
 .hero-image img {
@@ -80,6 +80,12 @@ footer {
     font-size: 40px;
 }
 
+.h1-signup-content {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
 .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -87,8 +93,11 @@ footer {
     padding: 15px 30px;
 }
 
-.column-3 {
-    grid-column: span 2;
+.column {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .content {
@@ -110,7 +119,8 @@ footer {
 }
 
 .card {
-    width: 360px;
+    width: 420px;
+    height: 500px;
     padding: 20px;
     border: 1px solid #000000;
     border-radius: 15px;
@@ -121,6 +131,7 @@ footer {
 
 .card img {
     width: 100%;
+    height: 60%;
 }
 
 .card h1 {
@@ -145,8 +156,13 @@ footer {
     color: #000000;
 }
 
-.intro {
-    padding: 20px 0px;
+.intro,
+.world-issue,
+.solution,
+.proposal,
+.call-to-action {
+    padding-top: 10px;
+    width: 90%;
 }
 
 .button-container {
@@ -158,7 +174,7 @@ footer {
     padding: 10px 20px;
     margin: 20px auto;
     font-size: 24px;
-    color: #fff;
+    color: #FFFFFF;
     background-color: #189AB4;
     text-decoration: none;
     border: 2px solid #189AB4;
@@ -169,7 +185,6 @@ footer {
 .cta-button:hover {
     background-color: #0ec1d5;
     border-color: #0ec1d5;
-    border: 2px solid #0ec1d5;
     border-radius: 5px;
 }
 
@@ -181,9 +196,9 @@ footer {
     background-color: #f9f9f9;
     border: 1px solid #000000;
     border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);    padding: 20px;
-    width: 100%;
-    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 700px;
+    padding: 20px;
     margin-top: 10px;
 }
 
@@ -198,12 +213,12 @@ footer {
 }
 
 .signup-form-container input {
+    width: 300px;
     margin: auto;
     margin-bottom: 8px;
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
-    max-width: 500px;
 }
 
 .signup-form-container button {
@@ -218,4 +233,34 @@ footer {
 
 .signup-form-container button:hover {
     background-color: #0ec1d5;
+}
+
+.news-card {
+    width: 360px;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin: 30px;
+}
+
+.news-card img {
+    width: 100%;
+}
+
+.hero-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.hero-img img {
+    width: 200px;
+    height: 200px;
+}
+
+.benefits li {
+    font-size: 32px;
 }
